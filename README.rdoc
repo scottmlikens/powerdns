@@ -1,6 +1,6 @@
 = DESCRIPTION: PowerDNS & Poweradmin Cookbook
 
-= REQUIREMENTS: CentOS, Debian, Redhat, Ubuntu
+= REQUIREMENTS: Ubuntu
 
 == Platform: Linux
 
@@ -21,6 +21,9 @@ node[:powerdns][:server][:ns2],
 node[:powerdns][:server][:hostmaster]
 
 There's defaults in that, which should more or less work... can be made tons better.
+
+= CURRENT USAGE: Add powerdns::recursor to the runlist to add the an recursion service locally.
+
 
 = USAGE: Installs PowerDNS Server and and Poweradmin; need to create a recipe to bring in PowerDNS Recursor still (auth only for now).
 

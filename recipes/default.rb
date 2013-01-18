@@ -2,7 +2,7 @@
 # Cookbook Name:: powerdns
 # Recipe:: default
 #
-# Copyright 2009, Adapp, Inc.
+# Copyright 2009, Scott M. Likens.
 #
 
 group "pdns" do

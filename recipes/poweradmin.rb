@@ -2,7 +2,7 @@
 # Cookbook Name:: powerdns
 # Recipe:: default
 #
-# Copyright 2009, Adapp, Inc.
+# Copyright 2009, Scott M. Likens.
 #
 
 remote_file "/usr/src/poweradmin-2.1.3.tgz" do

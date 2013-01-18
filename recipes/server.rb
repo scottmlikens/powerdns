@@ -2,7 +2,7 @@
 # Cookbook Name:: powerdns
 # Recipe:: server
 #
-# Copyright 2009, Adapp, Inc.
+# Copyright 2009, Scott M. Likens
 #
 
 # Manual steps, run /etc/powerdns/first-run manually,
