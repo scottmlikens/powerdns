@@ -41,8 +41,8 @@ template "/var/www/poweradmin-2.1.3/inc/config.inc.php" do
   )
 end
 
-link "/var/www/poweradmin-2.1.3" do
-  to "/var/www/poweradmin"
+link "/var/www/poweradmin" do
+  to "/var/www/poweradmin-2.1.3"
 end
 
 
